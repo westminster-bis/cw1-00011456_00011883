@@ -5,44 +5,43 @@
 
 <details>
 <summary> <b>Possible results:</b> </summary>
-
-    1. Full mark
-    2. Minus 10 marks from overall, but not below 40
-    3. Deferral reassesment
-    4. Mark = 0
+  <br />
+  1. Full mark
+  2. Minus 10 marks from overall, but not below 40
+  3. Deferral reassesment
+  4. Mark = 0
 
 </details>
 
 <p>In order to run on:</p>
 <details>
-    <summary> <b>PyCharm Community:</b> </summary>
+<summary> <b>PyCharm Community:</b> </summary>
+  <br />
+  Create a project and use the following shortcut
 
-        Create a project and use the following shortcut
-        
-        > Shift + F10
-
+  > Shift + F10
 </details>
 
 <details>
-    <summary> <b>Visual Studio Code:</b> </summary>
+  <summary> <b>Visual Studio Code:</b> </summary>
 
-        Open integrated terminal and type
+  Open integrated terminal and type
 
-        > py main.py
+  > py main.py
 
-        or
+  or
 
-        Use Run Code button in the text editor title menu
+  Use Run Code button in the text editor title menu
 
 </details>
     
 <details>
-    <summary> <b>Online Interpreter if there is uncertain circumstances:</b> </summary>
+  <summary> <b>Online Interpreter if there is uncertain circumstances:</b> </summary>
 
-        Open the following link on your browser
-        https://replit.com/languages/python3
+  Open the following link on your browser
+  https://replit.com/languages/python3
 
-        Copy and paste the code in main.py to Replit's IDE and use Run button
+  Copy and paste the code in main.py to Replit's IDE and use Run button
 
 </details>
 

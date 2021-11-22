@@ -6,10 +6,10 @@
 <details>
 <summary> <b>Possible results:</b> </summary>
 
-        <p>1. Full mark</p>
-        <p>2. Minus 10 marks from overall, but not below 40</p>
-        <p>3. Deferral reassesment</p>
-        <p>4. Mark = 0</p>
+        1. Full mark
+        2. Minus 10 marks from overall, but not below 40
+        3. Deferral reassesment
+        4. Mark = 0
 
 </details>
 

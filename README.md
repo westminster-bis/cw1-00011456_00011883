@@ -18,9 +18,8 @@
     <summary> <b>PyCharm Community:</b> </summary>
 
         Create a project and use the following shortcut
-        ```
-        Shift + F10
-        ```
+        
+        > Shift + F10
 
 </details>
 
@@ -28,9 +27,8 @@
     <summary> <b>Visual Studio Code:</b> </summary>
 
         Open integrated terminal and type
-        ```
-        py main.py
-        ```
+
+        > py main.py
 
         or
 

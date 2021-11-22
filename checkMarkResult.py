@@ -37,6 +37,7 @@ question_num = 0
 def change(i):
     return outcomes[question_num][i]
 
+# Ask till one of the outputs will not be printed
 asking = True
 while asking:
     question_text = questions[question_num]
@@ -47,6 +48,7 @@ while asking:
     else:
         outcome =  change(1)
 
+    # Print the output according to the story and stop asking
     if type(outcome) == str:
         print(outcome)
         asking = False

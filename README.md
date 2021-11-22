@@ -40,7 +40,7 @@
         Open the following link on your browser
         https://replit.com/languages/python3
 
-        Copy and paste the code in main.py to Replit's IDE and use Run button
+        Copy and paste the code in checkMarkResult.py to Replit's IDE and use Run button
 
 </details>
 

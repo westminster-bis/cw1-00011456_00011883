@@ -36,3 +36,13 @@ question_num = 0
 
 def change(i):
     return outcomes[question_num][i]
+
+asking = True
+while asking:
+    question_text = questions[question_num]
+    answer = bool(input(f"{question_text} \nAny charachter - Yes | Just Click Enter Button - No:"))
+
+    if answer:
+        outcome = change(0)
+    else:
+        outcome =  change(1)

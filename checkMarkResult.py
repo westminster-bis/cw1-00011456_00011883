@@ -17,3 +17,19 @@ questions = [
     "Accepted MC Claim? ",
     "Accepted MC Claim? ",
 ]
+
+# the first value in each tuple is the value corresponding to a True answer,
+# the second value in each tuple corresponds to a False answer
+outcomes = [
+    ["Full Mark", 1],
+    [2, 4],
+    [3, "Minus 10 marks from overall marks but not below 40"],
+    ["Full Mark", "Minus 10 marks from overall marks but not below 40"],
+    [5, 6],
+    [7, "Mark = 0"],
+    [8, "Mark = 0"],
+    ["Full Mark", "Mark = 0"],
+    ["Deferral reassessment", "Mark = 0"],
+]
+
+question_num = 0

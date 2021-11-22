@@ -46,3 +46,9 @@ while asking:
         outcome = change(0)
     else:
         outcome =  change(1)
+
+    if type(outcome) == str:
+        print(outcome)
+        asking = False
+    else:
+        question_num = outcome

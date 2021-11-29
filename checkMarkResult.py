@@ -38,19 +38,29 @@ def change(i):
     return outcomes[question_num][i]
 
 # Ask till one of the outputs will not be printed
-asking = True
-while asking:
-    question_text = questions[question_num]
-    answer = bool(input(f"{question_text} \nAny charachter - Yes | Just Click Enter Button - No:"))
+def run():
+    global question_num
+    while True:
+        print(f"\n# {questions[question_num]} #")
 
-    if answer:
-        outcome = change(0)
-    else:
-        outcome =  change(1)
+        while True:
+            answer = input("Any charachter - Yes | Just Click Enter Button - No: ").lower().strip()
+            if answer in ("yes", "no"):
+                break
 
-    # Print the output according to the story and stop asking
-    if type(outcome) == str:
-        print(outcome)
-        asking = False
-    else:
-        question_num = outcome
+        if answer == "yes":
+            outcome = change(0)
+        elif answer == "no":
+            outcome = change(1)
+
+        # Print the output according to the story and stop asking
+        if type(outcome) == str:
+            print(outcome)
+            if input("Do you want to try again? ").strip() == "yes":
+                question_num = 0
+                run()
+            break
+        else:
+            question_num = outcome
+
+run()
